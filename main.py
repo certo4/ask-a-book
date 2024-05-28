@@ -48,6 +48,7 @@ def setup():
   pdf_url = input()
   print("Bot: Now, please input an index name for your book.")
   index_name = input()
+  print("Bot: Thank you! Please wait while I get everything set up.")
 
   pc_setup(index_name)
   split_text = chunk_data(pdf_url)
